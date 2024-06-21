@@ -1,0 +1,148 @@
+.portfolio {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 100%;
+	position: relative;
+    padding: 8rem 0;
+    background-color: #fff;
+    border: 0;
+}
+
+.project-gird {
+    padding-top: 7rem;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    max-width: 1400px;
+}
+
+.project-colmn {
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.project-wrap {
+    width: 33%;
+    flex: none;
+    display: block;
+    box-sizing:inherit;
+    border: 0;
+}
+
+
+.project-inner {
+    position: relative;
+	overflow: hidden;
+    display: flex;
+    box-sizing:inherit;
+    height: 100%;
+}
+
+.title-category {
+    font-size: 16pt;
+	color: #1b242f;
+    font-weight: normal;
+}
+
+.text-category {
+    font-size: 12pt;
+    color:#f05323;
+    font-weight: normal;
+}
+
+.portfolio-bg {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-width: 100%;
+    transition: opacity 0.5s;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.project-wrap img {
+    transition: .25s ease-in-out;
+}
+
+.project-wrap:hover .portfolio-bg{
+    opacity: 0.95;
+}
+
+.project-wrap:hover img{
+    -webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.project-wrap:hover .label-text {
+    opacity: 1;
+    top: 24%;
+}
+
+.project-wrap:hover .cta-btn {
+    opacity: 1;
+    bottom: 24%;
+}
+
+.cta-btn {
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	right: 0;
+	color: #fff;
+	opacity: 0;
+	border: 1px solid #f05323;
+	background-color: #f05323;
+	font-size: 13pt;
+	margin: 0 auto;
+	padding: 7px 0;
+	width: 170px;
+	text-align: center;
+	transition: all 0.3s ease-in-out;
+	z-index: 2;
+}
+
+.cta-btn:hover {
+    color: #fff;
+}
+
+.label-text {
+    color: #1b242f;
+	opacity: 0;
+	text-align: center;
+	transition: all 0.3s ease-in-out;
+	z-index: 2;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+
+.project {
+    position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	right: -88%;
+	padding-top: 100px;
+	background: rgba(255,255,255, 0.95);
+	z-index: 103;
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+
+.project.opened {
+    right: 0;
+    opacity: 1;
+    visibility: visible;
+}

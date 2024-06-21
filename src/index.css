@@ -1,13 +1,99 @@
-body {
+
+/*==Typography============================*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,300,700,100');
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,300,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+/*==CSS Starts============================*/
+
+* {
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+  font-size: 62.5%;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  color:#333;
+  background-color:#fff;
+}
+
+section{
+padding: 8rem 0;
+margin: 0;
+background: #fff;
+display: inline-block;
+width: 100%;
+position: relative;
+}
+
+a {
+-webkit-transition: .3s ease-in-out;
+-moz-transition: .3s ease-in-out;
+-o-transition: .3s ease-in-out;
+transition: .3s ease-in-out;
+color: #f05323;
+text-decoration: none;
+}
+
+a:hover {
+outline: none;
+text-decoration:none;
+color:#f05323;
+}
+
+a:focus {
+outline:none;
+outline-offset: 0;
+color:#f05323;
+}
+
+h1 {
+  font-size: 5vw;
+}
+
+h1, h2, h3, h4, h5, h6 {
+font-family: 'Roboto', sans-serif;
+color: #272727;
+margin: 20px 0 10px 0;
+text-transform: uppercase;
+}
+
+.root .container {
+  width: auto;
+}
+
+p {
+font-size: 14pt;
+}
+
+ul {
+list-style: none;
+margin-left: 0;
+margin-top: 0;
+padding: 0;
+}
+
+
+img {
+  display: inline-block;
+  width: 100%;
+}
+
+.colmn {
+  position: relative;
+  padding: 0 15px;
+  display: flex;
+}
+
+.colmn.lg {
+  width: 100%;
+  flex-direction: column;
 }
