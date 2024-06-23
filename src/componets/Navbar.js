@@ -2,8 +2,6 @@ import React, { useState } from "react";
 import { Link } from 'react-scroll';
 import {FaBars, FaTimes} from 'react-icons/fa';
 
-import darkLogo from '../assets/logos/patnewlogo_dark_v2.svg';
-
 import './NavbarSyles.css'
 
 const Navbar = () => {
@@ -27,7 +25,7 @@ const Navbar = () => {
     return (
         <div className={headerClassName}>
             <div className="logo-title">
-                <img className="logo-dark" src={darkLogo} alt="logo" />
+                <img className="logo-dark" src="https://previews.dropbox.com/p/thumb/ACRtjDay2PH2XpvyYu72XCaXXC8s8aJYx46yXA74QFmmHYdWzkRd4EVv8203-2Ss8TusIs7cm3Q9K8IilMW0KK661pKQmRcxbpLJkNTaq-e-PX_ekbH3L4a-yAUrhO4RYUzZCUtxE94OpXQCLruim3NqWDO8R0LvMXBGJYy0Eg5FLI_ZQqlKH6uynHHBdGwdUuslxu2eP8dwGrbWyrFC-ToSO3qkFXEaT-5C7NeLgsifJdCZsO9URB6nPvJUT7kgBkyLSsZkrmTqDHBZk4O3WL1iBoPcO-1eew0WIygaBqT0gvlvisvvDQHbE-HWpj0tNcrVQKaDP9elV7GiqjP5UANV/p.png" alt="logo" />
             </div>
             <ul className={click ? 'nav-menu opened' : 'nav-menu '} >
                 <li className="menu-item">

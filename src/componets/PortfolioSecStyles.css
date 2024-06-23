@@ -93,6 +93,7 @@
 
 .project-wrap:hover .cta-btn {
     opacity: 1;
+    color: #fff;
     bottom: 24%;
 }
 
