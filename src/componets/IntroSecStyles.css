@@ -57,6 +57,10 @@
 	margin-top: 4vh;
 }
 
+.masthead a {
+    text-decoration: none;
+}
+
 .masthead .learnmore a {
 	text-transform: uppercase;
 	font-size: 1.5em;

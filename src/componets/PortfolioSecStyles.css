@@ -10,6 +10,11 @@
     border: 0;
 }
 
+.portfolio a {
+    color: #f05323;
+    text-decoration: none;
+}
+
 .project-gird {
     padding-top: 7rem;
     margin: 0 auto;

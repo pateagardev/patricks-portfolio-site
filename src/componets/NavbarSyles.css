@@ -42,6 +42,11 @@
 .header .nav-menu a {
    color: #ffffff;
    font-size: 1.4em;
+   text-decoration: none;
+}
+
+.header .nav-menu a:hover {
+    color: #f05323;
 }
 
 .logo-dark {
