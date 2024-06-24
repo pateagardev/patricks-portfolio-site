@@ -70,7 +70,6 @@
     left: 0;
 }
 @media only screen and (max-width: 760px) {
-
     .header .nav-menu {
         padding-top: 9em;
         height: 100vw;
@@ -79,6 +78,4 @@
         left: 1.2rem;
         max-width: 120px;
     }
-
-    
 }

@@ -15,7 +15,6 @@
     text-align: center;
 }
 
-
 .inner p {
     font-size: 18px;
 	font-weight: 100;
@@ -56,4 +55,17 @@ p.list-title {
 	font-size: 5rem;
 	color: #f05323;
 	margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+    .skills {
+        padding: 4rem 0 0 0;
+    }
+    .skills-colmn {
+        flex-direction: column;
+        padding: 0 15px;
+    }
+    .inner {
+        padding: 4rem 20px;
+    }     
 }

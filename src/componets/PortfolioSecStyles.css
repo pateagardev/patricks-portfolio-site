@@ -10,11 +10,6 @@
     border: 0;
 }
 
-.portfolio a {
-    color: #f05323;
-    text-decoration: none;
-}
-
 .project-gird {
     padding-top: 7rem;
     margin: 0 auto;
@@ -151,4 +146,38 @@
     right: 0;
     opacity: 1;
     visibility: visible;
+}
+@media only screen and (max-width: 760px) {
+    .portfolio .container {
+        padding: 0 20px;
+    }
+    .project-colmn {
+        flex-direction: column;
+    }
+    .project-wrap {
+        width: 100%;
+        margin: 5px 0;
+    }
+    .project-gird {
+        padding-top: 1rem;
+    }
+    .project-inner {
+        display: block;
+        margin: 12px 0;
+    }
+    .portfolio-bg {
+        display: none;
+    }
+    .label-text {
+        position: relative;
+        opacity: 1;
+        text-align: left;
+        padding: 17px 0;
+    }
+    .cta-btn {
+        position: relative;
+        opacity: 1;
+        display: block;
+        margin: 0;
+    }
 }

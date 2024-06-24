@@ -9,7 +9,7 @@ const IntroSec = () => {
     return (
         <div className="masthead">
             <div className="container">
-                <div className="colmn lg">
+                <div className="colmn intor-colmn">
                     <h1 className="title intro-title"> {headerIntro} </h1>
                     <h2 className="title intro-subtitle">FRONT END Developer & Designer</h2>
                 </div>

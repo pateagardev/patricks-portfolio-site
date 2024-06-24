@@ -8,7 +8,7 @@ const SkillsSec = () => {
     return (
         <div name="expertise" className="skills">
             <div className="container">
-               <div className="colmn skillslg">
+               <div className="colmn skills-colmn">
                     <div className="inner frontend">
                         <FaLaptopCode className="fa-laptop" />
                         <h3 className="title skills-title">Front End Developer</h3>
