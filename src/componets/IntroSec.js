@@ -20,7 +20,7 @@ const IntroSec = () => {
                     <Link to='work' smooth={true} duration={500}>
                         Projects
                     </Link>
-                    <a href="mailto:pateagar@gmail.com">
+                    <a href="mailto:hi@pateagar.com">
                         Contact
                     </a>
                 </div>

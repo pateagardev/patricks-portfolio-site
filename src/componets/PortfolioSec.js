@@ -80,7 +80,7 @@ const PortfolioSec = () => {
                         </div>
                     </div>
                     <div className="project-row">
-                        <div className="project-box project-box--info">
+                        <div className="project-box project-box--info order">
                             <img className="project-img" src={work3} alt="Vans Skateclassics Page" />
                         </div>
                         <div className="project-box project-box--info">
