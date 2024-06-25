@@ -1,8 +1,7 @@
 
 .about {
-    padding-top: 10rem;
     padding-bottom: calc(10rem - 4.5rem);
-background-color: black;
+    background-color: #fafafa;
     display: flex;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
@@ -19,22 +18,69 @@ background-color: black;
 }
     
 .about-title {
-   text-transform: uppercase;
+    text-transform: uppercase;
     margin-top: 0;
     font-size: 5vw;
     margin-bottom: 30px;
     font-family: 'Roboto Condensed', sans-serif;
-    color: #fff;
+    color: #000;
     font-weight: bold;
 }
     
 .about-text {
     font-size: 2rem;
     line-height: 1.6;
-    color: #fff;
+    color: #000;
 }
     
-.about .container {
-    max-width: 970px;
+.title-conatiner {
+    max-width: 800px;
     text-align: center;
+    margin: 0 auto;
+}
+
+.info-wrapper {
+    display: flex;
+    padding-top: 9rem;
+}
+
+.info-box {
+    width: 100%;
+    padding: 0 20px;
+}
+
+.info-box--text {
+    font-size: 1.8rem;
+	color: #666;
+	max-width: 60rem;
+	line-height: 1.7;
+	margin-bottom: 3rem;
+}
+
+.info-title {
+    font-weight: 700;
+	font-size: 2.8rem;
+	margin-bottom: 3rem;
+}
+
+.skills {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.skills__skill {
+    padding: 1rem 2rem;
+	margin-bottom: 1.5rem;
+	margin-right: 1.5rem;
+	font-size: 1.6rem;
+	background: rgba(153, 153, 153, 0.2);
+	border-radius: 5px;
+	font-weight: 600;
+	color: #666;
+}
+
+@media only screen and (max-width: 760px) {
+    .info-wrapper {
+        display: block;
+    }
 }

@@ -5,7 +5,7 @@
     background: linear-gradient(180deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,1) 100%), url("https://images.unsplash.com/photo-1518773553398-650c184e0bb3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80");
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-size: cover;
     display: flex;
     -webkit-box-pack: center;
@@ -105,7 +105,7 @@
         margin: 10px;
     }
     .intro-title  {
-        font-size: 10vw;
+        font-size: 11vw;
     }
     .learnmore {
         display: flex;
@@ -114,5 +114,8 @@
     }
     .intor-colmn {
         padding: 0 3rem;
+    }
+    .intro-subtitle {
+        font-size: 16px;
     }
 }

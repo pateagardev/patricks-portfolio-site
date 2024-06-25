@@ -63,7 +63,6 @@ h1, h2, h3, h4, h5, h6 {
 font-family: 'Roboto', sans-serif;
 color: #272727;
 margin: 20px 0 10px 0;
-text-transform: uppercase;
 }
 
 .root .container {
@@ -96,4 +95,30 @@ img {
 .colmn.lg {
   width: 100%;
   flex-direction: column;
+}
+
+.container {
+	max-width: 120rem;
+	margin: auto;
+	width: 92%;
+}
+
+.cta-btn {
+	background: #f05323;
+	color: #fff;
+  padding: 1.5rem 5rem;
+  margin: 20px 0 10px 0;
+	font-size: 1.6rem;
+	text-transform: uppercase;
+  text-decoration: none;
+	letter-spacing: 1px;
+	display: inline-block;
+	font-weight: 700;
+	border-radius: 5px;
+	transition: transform .3s;
+}
+
+.cta-btn:hover {
+  transform: translateY(-3px);
+  color: #fff;
 }

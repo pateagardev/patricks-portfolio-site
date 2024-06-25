@@ -11,7 +11,7 @@ const IntroSec = () => {
             <div className="container">
                 <div className="colmn intor-colmn">
                     <h1 className="title intro-title"> {headerIntro} </h1>
-                    <h2 className="title intro-subtitle">FRONT END Developer & Designer</h2>
+                    <h2 className="title intro-subtitle">Code Ninja of Perfection</h2>
                 </div>
                 <div className="learnmore">
                     <Link to='about' smooth={true} duration={500}>

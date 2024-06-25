@@ -31,18 +31,13 @@ const Navbar = () => {
             </div>
             <ul className={click ? 'nav-menu opened' : 'nav-menu '} >
                 <li className="menu-item">
-                    <Link to='work' smooth={true} duration={500} onClick={handleClick}>
-                        Projects
-                    </Link>
-                </li>
-                <li className="menu-item">
                     <Link to='about' smooth={true} duration={500} onClick={handleClick}>
                         About
                     </Link>
                 </li>
                 <li className="menu-item">
-                    <Link to='expertise' smooth={true} duration={500} onClick={handleClick}>
-                        Expertise
+                    <Link to='work' smooth={true} duration={500} onClick={handleClick}>
+                        Projects
                     </Link>
                 </li>
                 <li className="menu-item">
