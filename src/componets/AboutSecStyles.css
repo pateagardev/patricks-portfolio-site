@@ -83,4 +83,7 @@
     .info-wrapper {
         display: block;
     }
+    .about-title {
+        font-size: 4rem;
+    }
 }

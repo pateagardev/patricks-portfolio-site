@@ -77,7 +77,9 @@
     .project-row {
         display: block;
     }
-
+    .work-title {
+        font-size: 4rem;
+    }
     .order {
         order: 0;
     }
