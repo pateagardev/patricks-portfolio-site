@@ -1,5 +1,4 @@
 import React from "react";
-import { Container } from "react-bootstrap";
 import './PortfolioSecStyles.css'
 import { Link } from 'react-router-dom';
 import 'animate.css';
@@ -8,8 +7,6 @@ import work1 from '../assets/work/skate_classics_photo.jpg';
 import work2 from '../assets/work/vanclassics_photo.jpg';
 import work3 from '../assets/work/vans_pantsguide_photo.jpg';
 import work4 from '../assets/work/northface_history.jpg';
-import work5 from '../assets/work/vans_team_photo.jpg';
-import work6 from '../assets/work/vans_family_photo.jpg';
 
 const PortfolioSec = () => {
    
