@@ -1,20 +1,18 @@
 {
   "files": {
     "main.css": "/patricks-portfolio-site/static/css/main.26413f49.css",
-    "main.js": "/patricks-portfolio-site/static/js/main.dc6fdae8.js",
+    "main.js": "/patricks-portfolio-site/static/js/main.4861fd19.js",
     "static/media/skate_classics_photo.jpg": "/patricks-portfolio-site/static/media/skate_classics_photo.d4a09abff4979c9130c3.jpg",
     "static/media/northface_history.jpg": "/patricks-portfolio-site/static/media/northface_history.294242fb7c3b68101012.jpg",
-    "static/media/vans_family_photo.jpg": "/patricks-portfolio-site/static/media/vans_family_photo.196645be3e46abc9bc47.jpg",
     "static/media/vans_pantsguide_photo.jpg": "/patricks-portfolio-site/static/media/vans_pantsguide_photo.b7b4713be023baf2ebb8.jpg",
-    "static/media/vans_team_photo.jpg": "/patricks-portfolio-site/static/media/vans_team_photo.2ba06b97b7d2f08545c9.jpg",
     "static/media/vanclassics_photo.jpg": "/patricks-portfolio-site/static/media/vanclassics_photo.1d30c950b34ecf4cb102.jpg",
     "static/media/patnewlogo_dark_v2.svg": "/patricks-portfolio-site/static/media/patnewlogo_dark_v2.696918c0c0ce7b624ded2e7305a0b632.svg",
     "index.html": "/patricks-portfolio-site/index.html",
     "main.26413f49.css.map": "/patricks-portfolio-site/static/css/main.26413f49.css.map",
-    "main.dc6fdae8.js.map": "/patricks-portfolio-site/static/js/main.dc6fdae8.js.map"
+    "main.4861fd19.js.map": "/patricks-portfolio-site/static/js/main.4861fd19.js.map"
   },
   "entrypoints": [
     "static/css/main.26413f49.css",
-    "static/js/main.dc6fdae8.js"
+    "static/js/main.4861fd19.js"
   ]
 }
