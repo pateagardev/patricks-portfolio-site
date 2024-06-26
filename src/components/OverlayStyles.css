@@ -1,0 +1,16 @@
+.overlay__background {
+    position: fixed;
+    width: 110vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: 555;
+    background-color: rgba(0, 0, 0, 0.8);
+    animation: fadeIn 0.2s;
+}
+
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
