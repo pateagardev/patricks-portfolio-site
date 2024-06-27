@@ -9,7 +9,7 @@ function VideoModal(props) {
       <Grow in={props.isOpen} mountOnEnter unmountOnExit>
         <ModalVideo
           channel="custom"
-          url="http://www.pateagar.com/videos/vans_skateclassicspage.mp4"
+          url="https://www.pateagar.com/videos/vans_skateclassicspage.mp4"
           title="video"
           width={800}
           isOpen={true}
